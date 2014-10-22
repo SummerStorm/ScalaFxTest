@@ -1,5 +1,3 @@
-package car.cadr
-
 import java.awt.image.BufferedImage
 
 object ApplicationStarter {

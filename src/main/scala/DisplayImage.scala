@@ -1,5 +1,3 @@
-package car.cadr
-
 import java.awt.image.BufferedImage
 import scalafx.Includes._
 import scalafx.application.JFXApp
