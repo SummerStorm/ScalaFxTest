@@ -15,8 +15,6 @@ object DisplayImage extends JFXApp {
 		main(Array())
 	}
 
-	def setImage(image: BufferedImage): Unit = { imageOption = Some(image) }
-
 	stage = new JFXApp.PrimaryStage {
 		if (imageOption.isEmpty) {
 			System.err.println("Fatal error! imageOption is empty.")
